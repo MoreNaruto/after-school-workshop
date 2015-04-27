@@ -6,4 +6,10 @@ Tech-stack:
 	-Rails 4.1.6
 
 
-St.Louis Church Website Initiative
+
+GitHub Issue:
+	-If you have version 1.9.3 of git, do these steps (OS X only):
+		:brew update
+		:brew upgrade git (git should be the lastest version)
+		:export PATH="/usr/local/bin:$PATH"
+
