@@ -2,7 +2,7 @@
 #
 default: &default
   adapter: postgresql
-  username: user
+  username: 
   host: localhost
 
 development:
