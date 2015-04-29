@@ -1,5 +1,4 @@
 class IndexController < ActionController::Base
-	def hello
-		render text: "hello, world"
+	def home
 	end
 end

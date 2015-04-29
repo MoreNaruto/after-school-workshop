@@ -193,3 +193,289 @@ Processing by EventsController#new as HTML
   Rendered events/_form.html.erb (21.7ms)
   Rendered events/new.html.erb within layouts/application (26.1ms)
 Completed 200 OK in 83ms (Views: 79.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/events/edit" for 127.0.0.1 at 2015-04-29 11:22:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[35mEvent Load (6.4ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = $1 LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 21ms
+
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=edit):
+  app/controllers/events_controller.rb:67:in `set_event'
+
+
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.7ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (16.2ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (34.6ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2015-04-29 11:24:28 -0500
+Processing by EventsController#new as HTML
+  Rendered events/_form.html.erb (20.4ms)
+  Rendered events/new.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 105ms (Views: 101.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2015-04-29 11:24:29 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2015-04-29 11:24:29 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-29 11:24:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 11:24:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 11:24:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 11:24:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 11:24:29 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2015-04-29 11:24:29 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2015-04-29 11:24:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 11:24:29 -0500
+
+
+Started GET "/events" for 127.0.0.1 at 2015-04-29 11:26:20 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2015-04-29 11:26:20 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2015-04-29 11:26:20 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-29 11:26:20 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 11:26:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 11:26:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 11:26:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 11:26:20 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2015-04-29 11:26:20 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2015-04-29 11:26:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 11:26:20 -0500
+
+
+Started GET "/events/new" for 127.0.0.1 at 2015-04-29 11:26:24 -0500
+Processing by EventsController#new as HTML
+  Rendered events/_form.html.erb (4.5ms)
+  Rendered events/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 75ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2015-04-29 11:26:56 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Fwcm6rVuye0wvA6friZFDrG6ZKkndkrFFFTpYyW4BZY=", "event"=>{"name"=>"Bob", "start_date(1i)"=>"2015", "start_date(2i)"=>"2", "start_date(3i)"=>"20", "end_date(1i)"=>"2016", "end_date(2i)"=>"4", "end_date(3i)"=>"29", "creator"=>"Bob"}, "commit"=>"Create Event"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (17.9ms)[0m  [1mINSERT INTO "events" ("created_at", "creator", "end_date", "name", "start_date", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-04-29 16:26:56.154762"], ["creator", "Bob"], ["end_date", "2016-04-29"], ["name", "Bob"], ["start_date", "2015-02-20"], ["updated_at", "2015-04-29 16:26:56.154762"]]
+  [1m[35m (5.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/events/1
+Completed 302 Found in 30ms (ActiveRecord: 23.9ms)
+
+
+Started GET "/events/1" for 127.0.0.1 at 2015-04-29 11:26:56 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (6.4ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered events/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 52ms (Views: 44.0ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2015-04-29 11:26:56 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2015-04-29 11:26:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 11:26:56 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-29 11:26:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 11:26:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 11:26:56 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2015-04-29 11:26:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 11:26:56 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2015-04-29 11:26:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 11:26:56 -0500
+
+
+Started GET "/events" for 127.0.0.1 at 2015-04-29 11:27:01 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 48ms (Views: 47.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/1" for 127.0.0.1 at 2015-04-29 11:27:04 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered events/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2015-04-29 11:27:06 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/1/edit" for 127.0.0.1 at 2015-04-29 11:27:07 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered events/_form.html.erb (3.7ms)
+  Rendered events/edit.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 52ms (Views: 50.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2015-04-29 11:27:08 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/1/edit" for 127.0.0.1 at 2015-04-29 11:27:52 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered events/_form.html.erb (3.8ms)
+  Rendered events/edit.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 50ms (Views: 48.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2015-04-29 11:27:52 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2015-04-29 11:27:52 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-29 11:27:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-29 11:27:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-29 11:27:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-29 11:27:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-29 11:27:52 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2015-04-29 11:27:52 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2015-04-29 11:27:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-29 11:27:52 -0500
+
+
+Started GET "/events" for 127.0.0.1 at 2015-04-29 11:27:55 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 11:31:05 -0500
+
+SyntaxError (/Users/thomasmorris/Projects/church_initiative/after-school-workshop/app/controllers/index_controller.rb:1: syntax error, unexpected ':', expecting ';' or '\n'
+/Users/thomasmorris/Projects/church_initiative/after-school-workshop/app/controllers/index_controller.rb:4: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/index_controller.rb:1: syntax error, unexpected ':', expecting ';' or '\n'
+  app/controllers/index_controller.rb:4: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.2ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 11:31:29 -0500
+
+TypeError (superclass must be a Class (Module given)):
+  app/controllers/index_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.7ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/thomasmorris/.rvm/gems/ruby-2.1.3/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 11:31:43 -0500
+Processing by IndexController#home as HTML
+  Rendered index/home.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
