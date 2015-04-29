@@ -1,0 +1,24 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.header_layout {
+	border: red solid;
+	padding-bottom: 15px;
+
+}
+
+.float_right{
+	float: right;
+}
+
+.header_background{
+	background-color: red;
+}
+
+.no_margins{
+	margin: 0px;
+}
+
+tr.padding_left td{
+	padding-left: 40%;
+}

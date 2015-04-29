@@ -1,0 +1,31 @@
+<head>
+	<link href="/assets/header.css.scss" media="all" rel="stylesheet" type="text/css" />
+	<link href="/assets/application.css" media="all" rel="stylesheet" type="text/css" />
+	<script src="/assets/header.js" type="text/javascript"></script>
+	<script src="/assets/application.js" type="text/javascript"></script>
+  <%= stylesheet_link_tag 'application', media: 'all','data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body class="no_margins">
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+				<div class="nav-collapse">
+					<ul class="nav">
+				    <li><%= link_to "Home", controller: "index", action: "home"%></li>
+				    <li><%= link_to "Events", controller: "events", action: "index"%></li>
+				    <li>Community Events</li>
+				    <li>Contact</li>
+				  </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
