@@ -14,3 +14,9 @@ GitHub Issue:
 		:brew upgrade git (git should be the lastest version)
 		:export PATH="/usr/local/bin:$PATH"
 
+Ruby on Rails Resources:
+
+-Bootstrap examples: http://getbootstrap.com/getting-started/#examples
+-Bootstrap ruby gem: https://github.com/seyhunak/twitter-bootstrap-rails
+-Specific Koan about blocks: http://koans.herokuapp.com/en/about_blocks
+-Rails tutorial: http://www.railstutorial.org/book

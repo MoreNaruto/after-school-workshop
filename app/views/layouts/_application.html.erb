@@ -1,12 +1,20 @@
-<%= render 'layouts/header' %>
+<html>
+	<head>
+		<title>Home</title>
+		<link href="/assets/header.css.scss" media="all" rel="stylesheet" type="text/css" />
+		<link href="/assets/application.css" media="all" rel="stylesheet" type="text/css" />
+		<script src="/assets/header.js" type="text/javascript"></script>
+		<script src="/assets/application.js" type="text/javascript"></script>
+	  <%= stylesheet_link_tag 'application', media: 'all','data-turbolinks-track' => true %>
+	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	  <%= csrf_meta_tags %>
+	</head>
 
-<title>North Campus</title>
-
-
-<div class="background_color">
-	
-		
-	<h2>Here</h2>
-
-</div>
+	<body>
+		<div id="header">
+			<%= render 'layouts/header' %>
+		</div>
+		<%= yield %>
+	</body>
+</html>
 
