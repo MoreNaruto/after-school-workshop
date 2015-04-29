@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby "2.1.3"
 
 gem 'pg'
-gem 'mysql2'
+gem 'rails_12factor'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
 # Use SCSS for stylesheets
