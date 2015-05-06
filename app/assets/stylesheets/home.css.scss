@@ -1,0 +1,34 @@
+#mainCarousel{
+  background: url("assets/tiger.jpg") 50% 0 repeat fixed;
+  min-height: 1000px;
+}
+
+#tasks {
+  background: url("assets/background_image.jpg") 50% 0 no-repeat;
+  min-height: 1000px;
+}
+
+.img-circle{
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+.canvas-dimensions{
+  margin-top: -20px;
+  
+}
+
+.description-section{
+  padding-top: 50px;
+}
+
+.description-position{
+   width:300px;
+   top:50%;
+   margin-left:12%;
+}
+
+.display-inline{
+  display: -webkit-inline-box;
+}
