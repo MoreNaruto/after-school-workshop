@@ -1,6 +1,18 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.navbar-default{
+  background-color: transparent;
+  padding-right: 100%;
+  border-color: #a61d32;
+  border-bottom-color: transparent;
+  border-top-width: 3px;
+}
+
 .carousel-caption{
-    padding-bottom: 220px;
+  padding-bottom: 220px;
+}
+
+#mainNav > nav > div > div.navbar-collapse.collapse > ul > li > a{
+  margin: -6%;
 }
