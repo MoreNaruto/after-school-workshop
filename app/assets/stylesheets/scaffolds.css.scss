@@ -1,18 +1,17 @@
 @font-face{
-  font-family: Neue-zier-schrift;
-  src: url('fonts/neue_zier_schrift.ttf');
+  font-family: Germanica;
+  src: font-url('germanica.ttf');
 }
 
 
 body {
-  background:url(images/background_image.jpg) repeat fixed;
   color: #333;
-  font-family: Neue-zier-schrift, verdana, arial, helvetica, sans-serif;
+  font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
 p, ol, ul, td {
-  font-family: Neue-zier-schrift, verdana, arial, helvetica, sans-serif;
+  font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 23px;
 }
