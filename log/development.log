@@ -42480,3 +42480,140 @@ Started GET "/assets/background_image3.jpg" for 127.0.0.1 at 2015-05-12 17:31:12
 
 
 Started GET "/assets/germanica.ttf" for 127.0.0.1 at 2015-05-12 17:31:12 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 11:30:28 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (27.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#home as HTML
+  Rendered index/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 1876ms (Views: 1867.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-13 11:30:30 -0500
+Processing by IndexController#home as HTML
+  Rendered index/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 231ms (Views: 230.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.css.scss" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/footer.css.scss" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/application.css.scss" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/header.js" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/skrollr.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/header.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/background_image.jpg" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/background_image2.jpg" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/background_image3.jpg" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/assets/germanica.ttf" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
