@@ -42617,3 +42617,12 @@ Started GET "/assets/background_image3.jpg" for 127.0.0.1 at 2015-05-13 11:30:31
 
 
 Started GET "/assets/germanica.ttf" for 127.0.0.1 at 2015-05-13 11:30:31 -0500
+
+
+Started GET "/events" for 127.0.0.1 at 2015-05-13 11:50:32 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (26.5ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (48.7ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 315ms (Views: 280.0ms | ActiveRecord: 32.8ms)
