@@ -12,9 +12,9 @@
 			<ul class="nav navbar-nav nav-width">					
 		    	<li><%= link_to image_tag('http://www.thenorthcampus.org/wp-content/uploads/2013/05/cropped-North-Campus-1.gif'), controller: "index", action: "home"%></li>
 		    	<li><%= link_to "Mission", controller: "static_pages", action: "mission"%></li>    
-		 		<li><%= link_to "Campus Map", controller: "events", action: "index"%></li>
+		 		<li><%= link_to "Campus Map", controller: "static_pages", action: "campus_map"%></li>
 		 		<li><%= link_to "Programs", controller: "events", action: "index"%></li>
-		 		<li><%= link_to "Community", controller: "events", action: "index"%></li>
+		 		<li><%= link_to "Community", controller: "static_pages", action: "community"%></li>
 		    	<li><%= link_to "Recent Events", controller: "events", action: "index"%></li>    		    	
 		    	<li><%= link_to "Partners Staff", controller: "events", action: "index"%></li>        	
 		    	<li><%= link_to "How To Help", controller: "events", action: "index"%></li>    
