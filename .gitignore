@@ -1,9 +1,10 @@
 *.gem
 *.rbc
-/.config
+/config/dropbox.yml
 /coverage/
 /InstalledFiles
 /pkg/
+/private
 /spec/reports/
 /test/tmp/
 /test/version_tmp/
