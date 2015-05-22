@@ -12,8 +12,8 @@ development:
 production:
   adapter: postgresql
   pool: 5
-  username: hickprohtodcep
-  password: S2k-EIQRw35M2QHmwnKyx68iYj
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
   host: ec2-23-21-140-156.compute-1.amazonaws.com
   database: d3fb1oio6muumn
   

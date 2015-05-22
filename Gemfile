@@ -36,7 +36,7 @@ gem 'paperclip-dropbox', '>= 1.1.7'
 group :development, :test do
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 	gem 'spring'  
-
+  gem "figaro"
 	gem 'web-console'
 	gem 'byebug'
 	gem 'sqlite3'      
