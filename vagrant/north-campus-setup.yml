@@ -1,0 +1,16 @@
+---
+- hosts: north-campus-servers
+
+  # user: root
+
+  # Vagrant setup
+  user: vagrant
+  sudo: true
+
+  roles:
+    - common
+    - deploy-user
+    - ssh
+    - ruby-2.1.3
+    - nginx-passenger
+    - app-imgur-display

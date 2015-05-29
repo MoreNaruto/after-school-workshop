@@ -3,6 +3,7 @@ ruby "2.1.3"
 
 gem 'autoprefixer-rails'
 
+gem 'puma'
 gem 'newrelic_rpm'
 gem 'sprockets'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
